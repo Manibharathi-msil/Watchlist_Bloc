@@ -18,7 +18,7 @@ Widget listItem(BuildContext context, List<ContactData> userList) {
               child: ListTile(
                   title: Text(
                     '${userList[index].name} ',
-                    style: const TextStyle(color: Colors.black),
+                    style: const TextStyle(color: Colors.black,fontWeight: FontWeight.bold),
                   ),
                   subtitle: Text(
                     '${userList[index].Contacts}',
